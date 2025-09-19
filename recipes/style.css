@@ -1,0 +1,48 @@
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.donut-image {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+h1 {
+    font-size: 75px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.Ingredients,
+.Directions {
+    font-size: 60px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.donut-batter,
+.spicy-chipotle-icing {
+    font-size: 40px;
+    margin: 10px 0px -20px 10px;
+}
+
+button {
+    background-color: green;
+    border: 1px solid black;
+}
+
+.home-button {
+    color: yellow;
+}
